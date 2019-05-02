@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="SurfaceFitter3D">
+        <crown name="SurfaceFitter_Sample">
+            <desc>user script</desc>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="tags">Image,Algorithm,Measurement,3D</meta>
+        <entry path="pages" default="Viewer.msdd">
+            <file type="application/zip">Viewer.msdd</file>
+        </entry>
+        <entry path="resources">
+            <file type="application">image.json</file>
+        </entry>
+        <entry path="scripts" default="SurfaceFitter3D.lua">
+            <file type="text/x-lua">SurfaceFitter3D.lua</file>
+        </entry>
+    </application>
+</manifest>
