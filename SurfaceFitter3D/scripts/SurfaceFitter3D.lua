@@ -32,11 +32,9 @@
 local DELAY = 1000 -- ms between visualization steps for demonstration purpose
 
 -- Creating viewer instances
-local viewer3D = View.create()
-viewer3D:setID('viewer3D')
+local viewer3D = View.create("viewer3D1")
 
-local viewer2D = View.create()
-viewer2D:setID('viewer2D')
+local viewer2D = View.create("viewer2D1")
 
 -- Cyan color scheme for search regions
 local searchRegionDecoration = View.PixelRegionDecoration.create()
